@@ -1,0 +1,78 @@
+h1 {
+  font-size: 50px;
+}
+
+input, a, button {
+  background-color: transparent;
+  padding: 15px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+a, button {
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+a:hover, button:hover {
+  outline: none;
+  border-color: #7de71d;
+  color: #7de71d;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7de71d;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.app-container {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container picture {
+  margin-top: 50px;
+}
+
+.giphy {
+  width: 400px;
+}
+
+.logo {
+  width: 200px;
+  animation: rotate 3s ease infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(90deg);
+  }
+  80% {
+    transform: rotate(200deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
